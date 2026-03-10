@@ -11,11 +11,11 @@
 <license_category>none</license_category>
 <name>Agentic Discovery Operations</name>
 <publisher>HCL Technologies</publisher>
-<scope>x_hclt</scope>
+<scope>x_hclte</scope>
 <sys_class_name>sys_app_application</sys_class_name>
-<sys_id>x_hclt_agentic_discovery_operations</sys_id>
+<sys_id>x_hclte_agentic_discovery_operations</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_agentic_discovery_operations</sys_update_name>
+<sys_update_name>u_x_hclte_agentic_discovery_operations</sys_update_name>
 <version>1.0.0</version>
 </sys_app_application>
 
@@ -23,85 +23,85 @@
 
 <sys_app_module action="INSERT_OR_UPDATE">
 <active>true</active>
-<application>x_hclt_agentic_discovery_operations</application>
+<application>x_hclte_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
 <controller />
 <description>Agentic AI solution that analyzes ServiceNow Discovery failures</description>
 <hint />
 <http_method>GET</http_method>
-<link_to_start_page>x_hclt_ai_discovery_analysis.do</link_to_start_page>
+<link_to_start_page>x_hclte_ai_discovery_analysis.do</link_to_start_page>
 <name>main</name>
 <nav_to_first_module>false</nav_to_first_module>
 <order>0</order>
-<roles>x_hclt_ai_discovery_user</roles>
-<scope>x_hclt</scope>
+<roles>x_hclte_ai_discovery_user</roles>
+<scope>x_hclte</scope>
 <sys_class_name>sys_app_module</sys_class_name>
-<sys_id>x_hclt_agentic_discovery_operations_main</sys_id>
+<sys_id>x_hclte_agentic_discovery_operations_main</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_agentic_discovery_operations_main</sys_update_name>
+<sys_update_name>u_x_hclte_agentic_discovery_operations_main</sys_update_name>
 <title>Agentic Discovery Operations</title>
 </sys_app_module>
 
 <sys_app_module action="INSERT_OR_UPDATE">
 <active>true</active>
-<application>x_hclt_agentic_discovery_operations</application>
+<application>x_hclte_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
 <controller />
 <description>View AI Discovery Analysis records</description>
 <hint />
 <http_method>GET</http_method>
-<link_to_start_page>x_hclt_ai_discovery_analysis.do</link_to_start_page>
+<link_to_start_page>x_hclte_ai_discovery_analysis.do</link_to_start_page>
 <name>ai_discovery_analysis</name>
 <nav_to_first_module>false</nav_to_first_module>
 <order>100</order>
-<roles>x_hclt_ai_discovery_user</roles>
-<scope>x_hclt</scope>
+<roles>x_hclte_ai_discovery_user</roles>
+<scope>x_hclte</scope>
 <sys_class_name>sys_app_module</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_module</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_module</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_module</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_module</sys_update_name>
 <title>AI Discovery Analysis</title>
 </sys_app_module>
 
 <sys_app_module action="INSERT_OR_UPDATE">
 <active>true</active>
-<application>x_hclt_agentic_discovery_operations</application>
+<application>x_hclte_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
 <controller />
 <description>Configure remediation action mappings</description>
 <hint />
 <http_method>GET</http_method>
-<link_to_start_page>x_hclt_ai_remediation_mapping.do</link_to_start_page>
+<link_to_start_page>x_hclte_ai_remediation_mapping.do</link_to_start_page>
 <name>ai_remediation_mapping</name>
 <nav_to_first_module>false</nav_to_first_module>
 <order>200</order>
-<roles>x_hclt_ai_discovery_admin</roles>
-<scope>x_hclt</scope>
+<roles>x_hclte_ai_discovery_admin</roles>
+<scope>x_hclte</scope>
 <sys_class_name>sys_app_module</sys_class_name>
-<sys_id>x_hclt_ai_remediation_mapping_module</sys_id>
+<sys_id>x_hclte_ai_remediation_mapping_module</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_remediation_mapping_module</sys_update_name>
+<sys_update_name>u_x_hclte_ai_remediation_mapping_module</sys_update_name>
 <title>Remediation Mappings</title>
 </sys_app_module>
 
 <sys_app_module action="INSERT_OR_UPDATE">
 <active>true</active>
-<application>x_hclt_agentic_discovery_operations</application>
+<application>x_hclte_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
 <controller />
 <description>View Discovery AI Insights dashboard</description>
 <hint />
 <http_method>GET</http_method>
-<link_to_start_page>u_x_hclt_discovery_ai_insights.do</link_to_start_page>
+<link_to_start_page>u_x_hclte_discovery_ai_insights.do</link_to_start_page>
 <name>discovery_ai_insights</name>
 <nav_to_first_module>false</nav_to_first_module>
 <order>300</order>
-<roles>x_hclt_ai_discovery_user</roles>
-<scope>x_hclt</scope>
+<roles>x_hclte_ai_discovery_user</roles>
+<scope>x_hclte</scope>
 <sys_class_name>sys_app_module</sys_class_name>
-<sys_id>x_hclt_discovery_ai_insights_module</sys_id>
+<sys_id>x_hclte_discovery_ai_insights_module</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_discovery_ai_insights_module</sys_update_name>
+<sys_update_name>u_x_hclte_discovery_ai_insights_module</sys_update_name>
 <title>Discovery AI Insights</title>
 </sys_app_module>
 
@@ -112,13 +112,13 @@
 <description>Full access to Agentic Discovery Operations application including configuration</description>
 <elevated>false</elevated>
 <includes_roles>true</includes_roles>
-<name>x_hclt_ai_discovery_admin</name>
+<name>x_hclte_ai_discovery_admin</name>
 <primary />
-<scope>x_hclt</scope>
+<scope>x_hclte</scope>
 <sys_class_name>sys_role</sys_class_name>
-<sys_id>x_hclt_ai_discovery_admin</sys_id>
+<sys_id>x_hclte_ai_discovery_admin</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_admin</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_admin</sys_update_name>
 </sys_role>
 
 <sys_role action="INSERT_OR_UPDATE">
@@ -126,13 +126,13 @@
 <description>User access to view AI discovery analysis and dashboards</description>
 <elevated>false</elevated>
 <includes_roles>true</includes_roles>
-<name>x_hclt_ai_discovery_user</name>
+<name>x_hclte_ai_discovery_user</name>
 <primary />
-<scope>x_hclt</scope>
+<scope>x_hclte</scope>
 <sys_class_name>sys_role</sys_class_name>
-<sys_id>x_hclt_ai_discovery_user</sys_id>
+<sys_id>x_hclte_ai_discovery_user</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_user</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_user</sys_update_name>
 </sys_role>
 
 
@@ -149,7 +149,7 @@
 <alter_permission_admin>0</alter_permission_admin>
 <auto_list_form>false</auto_list_form>
 <auto_report>false</auto_report>
-<category>x_hclt_hclt</category>
+<category>x_hclte_hclt</category>
 <children_access>false</children_access>
 <create_access>false</create_access>
 <create_access_admin>false</create_access_admin>
@@ -175,7 +175,7 @@
 <maintain_audit>false</maintain_audit>
 <migration_exempt>false</migration_exempt>
 <ml_entity_state>false</ml_entity_state>
-<name>x_hclt_ai_discovery_analysis</name>
+<name>x_hclte_ai_discovery_analysis</name>
 <number_ref />
 <obj_descr>AI Discovery Analysis</obj_descr>
 <object_type>general</object_type>
@@ -197,9 +197,9 @@
 <session_not_in_scope>false</session_not_in_scope>
 <session_split>false</session_split>
 <sys_class_name>sys_db_object</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis</sys_update_name>
 <user_role />
 <web_service_access_only>false</web_service_access_only>
 <ws_access1>0</ws_access1>
@@ -221,7 +221,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Discovery Log</column_label>
-<column_name>x_hclt_discovery_log</column_name>
+<column_name>x_hclte_discovery_log</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -234,14 +234,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_discovery_log</field_name>
+<field_name>x_hclte_discovery_log</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>32</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_discovery_log</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_discovery_log</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -261,10 +261,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_discovery_log</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_discovery_log</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_discovery_log</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_discovery_log</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>reference</type>
 <unique>false</unique>
@@ -283,7 +283,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Log Message</column_label>
-<column_name>x_hclt_log_message</column_name>
+<column_name>x_hclte_log_message</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -296,14 +296,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_log_message</field_name>
+<field_name>x_hclte_log_message</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_log_message</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_log_message</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -323,10 +323,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_log_message</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_log_message</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_log_message</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_log_message</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -345,7 +345,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Target IP</column_label>
-<column_name>x_hclt_target_ip</column_name>
+<column_name>x_hclte_target_ip</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -358,14 +358,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_target_ip</field_name>
+<field_name>x_hclte_target_ip</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_target_ip</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_target_ip</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -385,10 +385,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_target_ip</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_target_ip</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_target_ip</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_target_ip</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -407,7 +407,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Error Type</column_label>
-<column_name>x_hclt_error_type</column_name>
+<column_name>x_hclte_error_type</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -420,14 +420,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_error_type</field_name>
+<field_name>x_hclte_error_type</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_error_type</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_error_type</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -447,10 +447,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_error_type</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_error_type</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_error_type</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_error_type</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -469,7 +469,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Root Cause</column_label>
-<column_name>x_hclt_root_cause</column_name>
+<column_name>x_hclte_root_cause</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -482,14 +482,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_root_cause</field_name>
+<field_name>x_hclte_root_cause</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_root_cause</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_root_cause</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -509,10 +509,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_root_cause</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_root_cause</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_root_cause</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_root_cause</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -531,7 +531,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Recommendation</column_label>
-<column_name>x_hclt_recommendation</column_name>
+<column_name>x_hclte_recommendation</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -544,14 +544,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_recommendation</field_name>
+<field_name>x_hclte_recommendation</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_recommendation</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_recommendation</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -571,10 +571,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_recommendation</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_recommendation</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_recommendation</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_recommendation</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -593,7 +593,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Confidence Score</column_label>
-<column_name>x_hclt_confidence_score</column_name>
+<column_name>x_hclte_confidence_score</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -606,14 +606,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_confidence_score</field_name>
+<field_name>x_hclte_confidence_score</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_confidence_score</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_confidence_score</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -633,10 +633,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_confidence_score</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_confidence_score</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_confidence_score</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_confidence_score</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>integer</type>
 <unique>false</unique>
@@ -655,7 +655,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Remediation Status</column_label>
-<column_name>x_hclt_remediation_status</column_name>
+<column_name>x_hclte_remediation_status</column_name>
 <comments />
 <create_role />
 <default_value>pending</default_value>
@@ -668,14 +668,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_remediation_status</field_name>
+<field_name>x_hclte_remediation_status</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_remediation_status</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_remediation_status</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -695,10 +695,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_remediation_status</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_remediation_status</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_remediation_status</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_remediation_status</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>choice</type>
 <unique>false</unique>
@@ -717,7 +717,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>AI Model Used</column_label>
-<column_name>x_hclt_ai_model_used</column_name>
+<column_name>x_hclte_ai_model_used</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -730,14 +730,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_ai_model_used</field_name>
+<field_name>x_hclte_ai_model_used</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_ai_model_used</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_ai_model_used</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -757,10 +757,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_ai_model_used</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_ai_model_used</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_ai_model_used</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_ai_model_used</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -779,7 +779,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Analyzed On</column_label>
-<column_name>x_hclt_analyzed_on</column_name>
+<column_name>x_hclte_analyzed_on</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -792,14 +792,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_analyzed_on</field_name>
+<field_name>x_hclte_analyzed_on</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_discovery_analysis.x_hclt_analyzed_on</name>
+<name>x_hclte_ai_discovery_analysis.x_hclte_analyzed_on</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -819,10 +819,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_x_hclt_analyzed_on</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_x_hclte_analyzed_on</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_x_hclt_analyzed_on</sys_update_name>
-<table_name>x_hclt_ai_discovery_analysis</table_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_x_hclte_analyzed_on</sys_update_name>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
 <translatable>false</translatable>
 <type>glide_date_time</type>
 <unique>false</unique>
@@ -840,11 +840,11 @@
 <display>true</display>
 <label>Pending</label>
 <language>en</language>
-<name>x_hclt_ai_discovery_analysis</name>
+<name>x_hclte_ai_discovery_analysis</name>
 <sys_class_name>sys_choice</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_choice_pending</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_choice_pending</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_choice_pending</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_choice_pending</sys_update_name>
 <value>pending</value>
 </sys_choice>
 
@@ -853,11 +853,11 @@
 <display>true</display>
 <label>Auto Resolved</label>
 <language>en</language>
-<name>x_hclt_ai_discovery_analysis</name>
+<name>x_hclte_ai_discovery_analysis</name>
 <sys_class_name>sys_choice</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_choice_auto_resolved</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_choice_auto_resolved</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_choice_auto_resolved</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_choice_auto_resolved</sys_update_name>
 <value>auto_resolved</value>
 </sys_choice>
 
@@ -866,11 +866,11 @@
 <display>true</display>
 <label>Manual</label>
 <language>en</language>
-<name>x_hclt_ai_discovery_analysis</name>
+<name>x_hclte_ai_discovery_analysis</name>
 <sys_class_name>sys_choice</sys_class_name>
-<sys_id>x_hclt_ai_discovery_analysis_choice_manual</sys_id>
+<sys_id>x_hclte_ai_discovery_analysis_choice_manual</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_discovery_analysis_choice_manual</sys_update_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_choice_manual</sys_update_name>
 <value>manual</value>
 </sys_choice>
 
@@ -888,7 +888,7 @@
 <alter_permission_admin>0</alter_permission_admin>
 <auto_list_form>false</auto_list_form>
 <auto_report>false</auto_report>
-<category>x_hclt_hclt</category>
+<category>x_hclte_hclt</category>
 <children_access>false</children_access>
 <create_access>true</create_access>
 <create_access_admin>false</create_access_admin>
@@ -914,7 +914,7 @@
 <maintain_audit>false</maintain_audit>
 <migration_exempt>false</migration_exempt>
 <ml_entity_state>false</ml_entity_state>
-<name>x_hclt_ai_remediation_mapping</name>
+<name>x_hclte_ai_remediation_mapping</name>
 <number_ref />
 <obj_descr>AI Remediation Mapping</obj_descr>
 <object_type>general</object_type>
@@ -936,9 +936,9 @@
 <session_not_in_scope>false</session_not_in_scope>
 <session_split>false</session_split>
 <sys_class_name>sys_db_object</sys_class_name>
-<sys_id>x_hclt_ai_remediation_mapping</sys_id>
+<sys_id>x_hclte_ai_remediation_mapping</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_remediation_mapping</sys_update_name>
+<sys_update_name>u_x_hclte_ai_remediation_mapping</sys_update_name>
 <user_role />
 <web_service_access_only>false</web_service_access_only>
 <ws_access1>0</ws_access1>
@@ -958,7 +958,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Error Type</column_label>
-<column_name>x_hclt_error_type</column_name>
+<column_name>x_hclte_error_type</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -971,14 +971,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_error_type</field_name>
+<field_name>x_hclte_error_type</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_remediation_mapping.x_hclt_error_type</name>
+<name>x_hclte_ai_remediation_mapping.x_hclte_error_type</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -998,10 +998,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_remediation_mapping_x_hclt_error_type</sys_id>
+<sys_id>x_hclte_ai_remediation_mapping_x_hclte_error_type</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_remediation_mapping_x_hclt_error_type</sys_update_name>
-<table_name>x_hclt_ai_remediation_mapping</table_name>
+<sys_update_name>u_x_hclte_ai_remediation_mapping_x_hclte_error_type</sys_update_name>
+<table_name>x_hclte_ai_remediation_mapping</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -1020,7 +1020,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Remediation Action</column_label>
-<column_name>x_hclt_remediation_action</column_name>
+<column_name>x_hclte_remediation_action</column_name>
 <comments />
 <create_role />
 <default_value />
@@ -1033,14 +1033,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_remediation_action</field_name>
+<field_name>x_hclte_remediation_action</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_remediation_mapping.x_hclt_remediation_action</name>
+<name>x_hclte_ai_remediation_mapping.x_hclte_remediation_action</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -1060,10 +1060,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_remediation_mapping_x_hclt_remediation_action</sys_id>
+<sys_id>x_hclte_ai_remediation_mapping_x_hclte_remediation_action</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_remediation_mapping_x_hclt_remediation_action</sys_update_name>
-<table_name>x_hclt_ai_remediation_mapping</table_name>
+<sys_update_name>u_x_hclte_ai_remediation_mapping_x_hclte_remediation_action</sys_update_name>
+<table_name>x_hclte_ai_remediation_mapping</table_name>
 <translatable>false</translatable>
 <type>string</type>
 <unique>false</unique>
@@ -1082,7 +1082,7 @@
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Auto Execute</column_label>
-<column_name>x_hclt_auto_execute</column_name>
+<column_name>x_hclte_auto_execute</column_name>
 <comments />
 <create_role />
 <default_value>false</default_value>
@@ -1095,14 +1095,14 @@
 <encryption_subtype />
 <field_formula />
 <field_help />
-<field_name>x_hclt_auto_execute</field_name>
+<field_name>x_hclte_auto_execute</field_name>
 <function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
 <model_id />
-<name>x_hclt_ai_remediation_mapping.x_hclt_auto_execute</name>
+<name>x_hclte_ai_remediation_mapping.x_hclte_auto_execute</name>
 <next_element />
 <primary>false</primary>
 <read_only>false</read_only>
@@ -1122,10 +1122,10 @@
 <staged>false</staged>
 <summary>false</summary>
 <sys_class_name>sys_dictionary</sys_class_name>
-<sys_id>x_hclt_ai_remediation_mapping_x_hclt_auto_execute</sys_id>
+<sys_id>x_hclte_ai_remediation_mapping_x_hclte_auto_execute</sys_id>
 <sys_policy>6</sys_policy>
-<sys_update_name>u_x_hclt_ai_remediation_mapping_x_hclt_auto_execute</sys_update_name>
-<table_name>x_hclt_ai_remediation_mapping</table_name>
+<sys_update_name>u_x_hclte_ai_remediation_mapping_x_hclte_auto_execute</sys_update_name>
+<table_name>x_hclte_ai_remediation_mapping</table_name>
 <translatable>false</translatable>
 <type>boolean</type>
 <unique>false</unique>
@@ -1137,4 +1137,4 @@
 <widget_template />
 </sys_dictionary>
 
-<sys_update_set><action>INSERT_OR_UPDATE</action><application>x_hclt_agentic_discovery_operations</application><category>update_set</category><description>Agentic AI solution for Discovery failure analysis and self-healing</description><name>Agentic Discovery Operations</name><release_date /><remote>false</remote><scope>x_hclt</scope><state>built</state><sys_class_name>sys_update_set</sys_class_name><sys_id>x_hclt_update_set</sys_id><sys_update_name>u_x_hclt_agentic_discovery_operations_update_set</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_created_by>admin</sys_created_by><sys_updated_on>2026-03-10 07:16:41</sys_updated_on><sys_created_on>2026-03-10 07:16:41</sys_created_on><version>1.0.0</version></sys_update_set></unload>
+<sys_update_set><action>INSERT_OR_UPDATE</action><application>x_hclte_agentic_discovery_operations</application><category>update_set</category><description>Agentic AI solution for Discovery failure analysis and self-healing</description><name>Agentic Discovery Operations</name><release_date /><remote>false</remote><scope>x_hclte</scope><state>built</state><sys_class_name>sys_update_set</sys_class_name><sys_id>x_hclte_update_set</sys_id><sys_update_name>u_x_hclte_agentic_discovery_operations_update_set</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_created_by>admin</sys_created_by><sys_updated_on>2026-03-10 07:16:41</sys_updated_on><sys_created_on>2026-03-10 07:16:41</sys_created_on><version>1.0.0</version></sys_update_set></unload>
