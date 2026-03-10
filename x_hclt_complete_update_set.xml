@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ServiceNow Update Set: Agentic Discovery Operations
-  Scope: x_hclt
-  Version: 1.0.0
-  Target: ServiceNow Zurich Release
--->
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-  ServiceNow Update Set: Agentic Discovery Operations
-  Scope: x_hclt
-  Version: 1.0.0
-  Target: ServiceNow Zurich Release
-  
-  Complete update set including all application components
--->
 <unload unload_date="2026-03-10 05:11:11">
 
 <!-- ==================== APPLICATION DEFINITION ==================== -->
