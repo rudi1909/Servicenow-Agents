@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <unload unload_date="2026-03-10 05:11:11">
 
-<!-- ==================== APPLICATION DEFINITION ==================== -->
+
 
 <sys_app_application action="INSERT_OR_UPDATE">
 <active>true</active>
@@ -19,15 +19,15 @@
 <version>1.0.0</version>
 </sys_app_application>
 
-<!-- ==================== APPLICATION MODULES ==================== -->
+
 
 <sys_app_module action="INSERT_OR_UPDATE">
 <active>true</active>
 <application>x_hclt_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
-<controller/>
+<controller />
 <description>Agentic AI solution that analyzes ServiceNow Discovery failures</description>
-<hint/>
+<hint />
 <http_method>GET</http_method>
 <link_to_start_page>x_hclt_ai_discovery_analysis.do</link_to_start_page>
 <name>main</name>
@@ -46,9 +46,9 @@
 <active>true</active>
 <application>x_hclt_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
-<controller/>
+<controller />
 <description>View AI Discovery Analysis records</description>
-<hint/>
+<hint />
 <http_method>GET</http_method>
 <link_to_start_page>x_hclt_ai_discovery_analysis.do</link_to_start_page>
 <name>ai_discovery_analysis</name>
@@ -67,9 +67,9 @@
 <active>true</active>
 <application>x_hclt_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
-<controller/>
+<controller />
 <description>Configure remediation action mappings</description>
-<hint/>
+<hint />
 <http_method>GET</http_method>
 <link_to_start_page>x_hclt_ai_remediation_mapping.do</link_to_start_page>
 <name>ai_remediation_mapping</name>
@@ -88,9 +88,9 @@
 <active>true</active>
 <application>x_hclt_agentic_discovery_operations</application>
 <class_name>sys_app_module</class_name>
-<controller/>
+<controller />
 <description>View Discovery AI Insights dashboard</description>
-<hint/>
+<hint />
 <http_method>GET</http_method>
 <link_to_start_page>u_x_hclt_discovery_ai_insights.do</link_to_start_page>
 <name>discovery_ai_insights</name>
@@ -105,7 +105,7 @@
 <title>Discovery AI Insights</title>
 </sys_app_module>
 
-<!-- ==================== ROLES ==================== -->
+
 
 <sys_role action="INSERT_OR_UPDATE">
 <assignment_action>2</assignment_action>
@@ -113,7 +113,7 @@
 <elevated>false</elevated>
 <includes_roles>true</includes_roles>
 <name>x_hclt_ai_discovery_admin</name>
-<primary/>
+<primary />
 <scope>x_hclt</scope>
 <sys_class_name>sys_role</sys_class_name>
 <sys_id>x_hclt_ai_discovery_admin</sys_id>
@@ -127,7 +127,7 @@
 <elevated>false</elevated>
 <includes_roles>true</includes_roles>
 <name>x_hclt_ai_discovery_user</name>
-<primary/>
+<primary />
 <scope>x_hclt</scope>
 <sys_class_name>sys_role</sys_class_name>
 <sys_id>x_hclt_ai_discovery_user</sys_id>
@@ -135,7 +135,7 @@
 <sys_update_name>u_x_hclt_ai_discovery_user</sys_update_name>
 </sys_role>
 
-<!-- ==================== MAIN TABLE: x_hclt_ai_discovery_analysis ==================== -->
+
 
 <sys_db_object action="INSERT_OR_UPDATE">
 <access_modification_date>2026-03-10 05:11:11</access_modification_date>
@@ -176,11 +176,11 @@
 <migration_exempt>false</migration_exempt>
 <ml_entity_state>false</ml_entity_state>
 <name>x_hclt_ai_discovery_analysis</name>
-<number_ref/>
+<number_ref />
 <obj_descr>AI Discovery Analysis</obj_descr>
 <object_type>general</object_type>
-<overlay_class/>
-<parent/>
+<overlay_class />
+<parent />
 <permission_type>0</permission_type>
 <read_access>true</read_access>
 <read_access_admin>false</read_access_admin>
@@ -200,7 +200,7 @@
 <sys_id>x_hclt_ai_discovery_analysis</sys_id>
 <sys_policy>6</sys_policy>
 <sys_update_name>u_x_hclt_ai_discovery_analysis</sys_update_name>
-<user_role/>
+<user_role />
 <web_service_access_only>false</web_service_access_only>
 <ws_access1>0</ws_access1>
 <ws_access2>0</ws_access2>
@@ -212,51 +212,51 @@
 <ws_access8>0</ws_access8>
 </sys_db_object>
 
-<!-- Dictionary entries for x_hclt_ai_discovery_analysis -->
+
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Discovery Log</column_label>
 <column_name>x_hclt_discovery_log</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_discovery_log</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>32</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_discovery_log</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
 <reference_key>sys_id</reference_key>
-<reference_qual/>
-<reference_qual_function/>
+<reference_qual />
+<reference_qual_function />
 <reference_table>discovery_log</reference_table>
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>false</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -273,52 +273,52 @@
 <virtual>false</virtual>
 <visible_listview>false</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Log Message</column_label>
 <column_name>x_hclt_log_message</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_log_message</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_log_message</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -335,52 +335,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Target IP</column_label>
 <column_name>x_hclt_target_ip</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_target_ip</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_target_ip</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -397,52 +397,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Error Type</column_label>
 <column_name>x_hclt_error_type</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_error_type</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_error_type</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -459,52 +459,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Root Cause</column_label>
 <column_name>x_hclt_root_cause</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_root_cause</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_root_cause</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -521,52 +521,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Recommendation</column_label>
 <column_name>x_hclt_recommendation</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_recommendation</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_recommendation</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -583,52 +583,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Confidence Score</column_label>
 <column_name>x_hclt_confidence_score</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_confidence_score</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_confidence_score</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -645,52 +645,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Remediation Status</column_label>
 <column_name>x_hclt_remediation_status</column_name>
-<comments/>
-<create_role/>
+<comments />
+<create_role />
 <default_value>pending</default_value>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_remediation_status</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_remediation_status</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -707,52 +707,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>AI Model Used</column_label>
 <column_name>x_hclt_ai_model_used</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_ai_model_used</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_ai_model_used</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -769,52 +769,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Analyzed On</column_label>
 <column_name>x_hclt_analyzed_on</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_analyzed_on</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_discovery_analysis.x_hclt_analyzed_on</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -831,12 +831,12 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
-<!-- Choice list values for remediation_status -->
+
 <sys_choice action="INSERT_OR_UPDATE">
-<dependent_value/>
+<dependent_value />
 <display>true</display>
 <label>Pending</label>
 <language>en</language>
@@ -849,7 +849,7 @@
 </sys_choice>
 
 <sys_choice action="INSERT_OR_UPDATE">
-<dependent_value/>
+<dependent_value />
 <display>true</display>
 <label>Auto Resolved</label>
 <language>en</language>
@@ -862,7 +862,7 @@
 </sys_choice>
 
 <sys_choice action="INSERT_OR_UPDATE">
-<dependent_value/>
+<dependent_value />
 <display>true</display>
 <label>Manual</label>
 <language>en</language>
@@ -874,7 +874,7 @@
 <value>manual</value>
 </sys_choice>
 
-<!-- ==================== REMEDIATION MAPPING TABLE ==================== -->
+
 
 <sys_db_object action="INSERT_OR_UPDATE">
 <access_modification_date>2026-03-10 05:11:11</access_modification_date>
@@ -915,11 +915,11 @@
 <migration_exempt>false</migration_exempt>
 <ml_entity_state>false</ml_entity_state>
 <name>x_hclt_ai_remediation_mapping</name>
-<number_ref/>
+<number_ref />
 <obj_descr>AI Remediation Mapping</obj_descr>
 <object_type>general</object_type>
-<overlay_class/>
-<parent/>
+<overlay_class />
+<parent />
 <permission_type>0</permission_type>
 <read_access>true</read_access>
 <read_access_admin>false</read_access_admin>
@@ -939,7 +939,7 @@
 <sys_id>x_hclt_ai_remediation_mapping</sys_id>
 <sys_policy>6</sys_policy>
 <sys_update_name>u_x_hclt_ai_remediation_mapping</sys_update_name>
-<user_role/>
+<user_role />
 <web_service_access_only>false</web_service_access_only>
 <ws_access1>0</ws_access1>
 <ws_access2>0</ws_access2>
@@ -953,47 +953,47 @@
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Error Type</column_label>
 <column_name>x_hclt_error_type</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_error_type</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>100</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_remediation_mapping.x_hclt_error_type</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -1010,52 +1010,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Remediation Action</column_label>
 <column_name>x_hclt_remediation_action</column_name>
-<comments/>
-<create_role/>
-<default_value/>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<comments />
+<create_role />
+<default_value />
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_remediation_action</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>4000</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_remediation_mapping.x_hclt_remediation_action</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -1072,52 +1072,52 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
 <sys_dictionary action="INSERT_OR_UPDATE">
 <array>false</array>
-<attributes/>
+<attributes />
 <audit>false</audit>
 <auto_calculate>false</auto_calculate>
 <callable>false</callable>
 <column_label>Auto Execute</column_label>
 <column_name>x_hclt_auto_execute</column_name>
-<comments/>
-<create_role/>
+<comments />
+<create_role />
 <default_value>false</default_value>
-<dependent/>
-<dependent_value/>
-<display_cols/>
+<dependent />
+<dependent_value />
+<display_cols />
 <dynamic_default_value>false</dynamic_default_value>
-<dynamic_ref_qual/>
+<dynamic_ref_qual />
 <editable>true</editable>
-<encryption_subtype/>
-<field_formula/>
-<field_help/>
+<encryption_subtype />
+<field_formula />
+<field_help />
 <field_name>x_hclt_auto_execute</field_name>
-<function_definition/>
+<function_definition />
 <function_field>false</function_field>
 <mandatory>false</mandatory>
 <max_length>40</max_length>
 <ml_action>false</ml_action>
-<model_id/>
+<model_id />
 <name>x_hclt_ai_remediation_mapping.x_hclt_auto_execute</name>
-<next_element/>
+<next_element />
 <primary>false</primary>
 <read_only>false</read_only>
-<reference/>
+<reference />
 <reference_cascade_rules>false</reference_cascade_rules>
 <reference_flex>false</reference_flex>
-<reference_key/>
-<reference_qual/>
-<reference_qual_function/>
-<reference_table/>
+<reference_key />
+<reference_qual />
+<reference_qual_function />
+<reference_table />
 <remove_special_chars>false</remove_special_chars>
 <required>false</required>
 <searchable>true</searchable>
-<sizeclass/>
-<specialchars/>
+<sizeclass />
+<specialchars />
 <split>false</split>
 <staged>false</staged>
 <summary>false</summary>
@@ -1134,7 +1134,7 @@
 <virtual>false</virtual>
 <visible_listview>true</visible_listview>
 <visible_new_form>true</visible_new_form>
-<widget_template/>
+<widget_template />
 </sys_dictionary>
 
-</unload>
+<sys_update_set><action>INSERT_OR_UPDATE</action><application>x_hclt_agentic_discovery_operations</application><category>update_set</category><description>Agentic AI solution for Discovery failure analysis and self-healing</description><name>Agentic Discovery Operations</name><release_date /><remote>false</remote><scope>x_hclt</scope><state>built</state><sys_class_name>sys_update_set</sys_class_name><sys_id>x_hclt_update_set</sys_id><sys_update_name>u_x_hclt_agentic_discovery_operations_update_set</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_created_by>admin</sys_created_by><sys_updated_on>2026-03-10 07:16:41</sys_updated_on><sys_created_on>2026-03-10 07:16:41</sys_created_on><version>1.0.0</version></sys_update_set></unload>
