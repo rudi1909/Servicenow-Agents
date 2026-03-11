@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-03-10 08:30:00">
+<sys_update_set action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_update_set</sys_id>
+<name>Agentic Discovery Operations</name>
+<description>AI solution for Discovery failure analysis</description>
+<category>update_set</category>
+<application>x_hclte_app</application>
+<scope>x_hclte</scope>
+<version>1.0.0</version>
+<state>built</state>
+<remote>false</remote>
+<release_date></release_date>
+<sys_class_name>sys_update_set</sys_class_name>
+<sys_update_name>u_x_hclte_update_set</sys_update_name>
+<sys_policy>6</sys_policy>
+</sys_update_set>
+<sys_app_application action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_app</sys_id>
+<name>Agentic Discovery Operations</name>
+<description>AI solution for Discovery failure analysis</description>
+<category>software</category>
+<enforce_lock>false</enforce_lock>
+<licensable>true</licensable>
+<license_category>none</license_category>
+<publisher>HCL Technologies</publisher>
+<scope>x_hclte</scope>
+<sys_class_name>sys_app_application</sys_class_name>
+<sys_update_name>u_x_hclte_app</sys_update_name>
+<sys_policy>6</sys_policy>
+<version>1.0.0</version>
+<active>true</active>
+</sys_app_application>
+<sys_db_object action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_ai_discovery_analysis</sys_id>
+<name>x_hclte_ai_discovery_analysis</name>
+<obj_descr>AI Discovery Analysis</obj_descr>
+<description>AI Discovery Analysis Results</description>
+<category>x_hclte</category>
+<object_type>general</object_type>
+<parent></parent>
+<overlay_class></overlay_class>
+<number_ref></number_ref>
+<permission_type>0</permission_type>
+<read_access>true</read_access>
+<write_access>false</write_access>
+<create_access>false</create_access>
+<delete_access>false</delete_access>
+<alter_access>false</alter_access>
+<reference_limit>0</reference_limit>
+<enable_unique>false</enable_unique>
+<enable_auto_number>false</enable_auto_number>
+<enable_number>false</enable_number>
+<is_extendable>false</is_extendable>
+<allow_client_scripts>true</allow_client_scripts>
+<allow_standard_table_access>true</allow_standard_table_access>
+<allow_reorder>true</allow_reorder>
+<actions_access>true</actions_access>
+<default_flag>false</default_flag>
+<force_cache>true</force_cache>
+<row_count>-1</row_count>
+<label>AI Discovery Analysis</label>
+<sys_class_name>sys_db_object</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis</sys_update_name>
+<sys_policy>6</sys_policy>
+</sys_db_object>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f1</sys_id>
+<name>x_hclte_ai_discovery_analysis.discovery_log</name>
+<column_name>discovery_log</column_name>
+<column_label>Discovery Log</column_label>
+<description>Reference to Discovery Log</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>reference</type>
+<sizeclass>0</sizeclass>
+<max_length>32</max_length>
+<unique>false</unique>
+<reference_table>discovery_log</reference_table>
+<reference_key>sys_id</reference_key>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_discovery_log</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f2</sys_id>
+<name>x_hclte_ai_discovery_analysis.log_message</name>
+<column_name>log_message</column_name>
+<column_label>Log Message</column_label>
+<description>Log Message</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>4000</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_log_message</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f3</sys_id>
+<name>x_hclte_ai_discovery_analysis.target_ip</name>
+<column_name>target_ip</column_name>
+<column_label>Target IP</column_label>
+<description>Target IP</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>255</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_target_ip</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f4</sys_id>
+<name>x_hclte_ai_discovery_analysis.error_type</name>
+<column_name>error_type</column_name>
+<column_label>Error Type</column_label>
+<description>Error Type</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>100</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_error_type</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f5</sys_id>
+<name>x_hclte_ai_discovery_analysis.root_cause</name>
+<column_name>root_cause</column_name>
+<column_label>Root Cause</column_label>
+<description>Root Cause</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>4000</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_root_cause</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f6</sys_id>
+<name>x_hclte_ai_discovery_analysis.recommendation</name>
+<column_name>recommendation</column_name>
+<column_label>Recommendation</column_label>
+<description>Recommendation</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>4000</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_recommendation</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f7</sys_id>
+<name>x_hclte_ai_discovery_analysis.confidence_score</name>
+<column_name>confidence_score</column_name>
+<column_label>Confidence Score</column_label>
+<description>Confidence Score</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>integer</type>
+<sizeclass>0</sizeclass>
+<max_length>40</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_confidence_score</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f8</sys_id>
+<name>x_hclte_ai_discovery_analysis.remediation_status</name>
+<column_name>remediation_status</column_name>
+<column_label>Remediation Status</column_label>
+<description>Remediation Status</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>40</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_remediation_status</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f9</sys_id>
+<name>x_hclte_ai_discovery_analysis.ai_model_used</name>
+<column_name>ai_model_used</column_name>
+<column_label>AI Model Used</column_label>
+<description>AI Model Used</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>string</type>
+<sizeclass>0</sizeclass>
+<max_length>100</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_ai_model_used</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+<sys_dictionary action="INSERT_OR_UPDATE">
+<sys_updated_by>admin</sys_updated_by>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-03-10 08:30:00</sys_created_on>
+<sys_updated_on>2026-03-10 08:30:00</sys_updated_on>
+<sys_id>x_hclte_f10</sys_id>
+<name>x_hclte_ai_discovery_analysis.analyzed_on</name>
+<column_name>analyzed_on</column_name>
+<column_label>Analyzed On</column_label>
+<description>Analyzed On</description>
+<primary>false</primary>
+<mandatory>false</mandatory>
+<read_only>false</read_only>
+<editable>true</editable>
+<type>glide_date_time</type>
+<sizeclass>0</sizeclass>
+<max_length>40</max_length>
+<unique>false</unique>
+<sys_class_name>sys_dictionary</sys_class_name>
+<sys_update_name>u_x_hclte_ai_discovery_analysis_analyzed_on</sys_update_name>
+<sys_policy>6</sys_policy>
+<table_name>x_hclte_ai_discovery_analysis</table_name>
+<visible_listview>true</visible_listview>
+<visible_new_form>true</visible_new_form>
+</sys_dictionary>
+</unload>
